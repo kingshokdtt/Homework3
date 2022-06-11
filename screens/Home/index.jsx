@@ -9,9 +9,10 @@ export default function HomeSceen({ navigation }) {
       <Pressable onPress={() => navigation.navigate('Profile')}>
         <Image
           style={styles.logo}
-          source={require('../../assets/react_logo.png')}
+          source={require('../../assets/tiny_logo.png')}
         />
       </Pressable>
     </View>
   );
 }
+
